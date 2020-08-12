@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<SylixOSSetting>
+<BaseSetting Profile="standard" ProjectType="SylixOSSoProject" RealEvoVer="3.9.10 Ultimate"/>
+<OutputSetting>
+<OutputPath Name="Output" Path="Release:Debug" TreeNode="Output"/>
+<OutputPath Name="Debug" Path="Debug" TreeNode="Debug"/>
+<OutputPath Name="Release" Path="Release" TreeNode="Release"/>
+</OutputSetting>
+<BuildSetting CoustomCfgMakefile="false" NeedReBuild="false" NotScanSourceFile="false"/>
+<DeviceSetting DevName="10.9.2.220" WorkDir="/apps/workq"/>
+<UploadPath>
+<PairItem key="$(WORKSPACE_workq)/$(Output)/strip/libworkq.so" value="/lib/libworkq.so"/>
+</UploadPath>
+</SylixOSSetting>
